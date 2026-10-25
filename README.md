@@ -28,7 +28,7 @@
 - 💻 Building a strong foundation in Dart, C#, and C++.
 - 🏗️ Exploring software architecture, design patterns, and clean code.
 - 🚀 Learning by building practical projects and improving my skills.
-- 📍 Aswan, Egypt 🇪🇬
+- 📍 Giza, Egypt 🇪🇬
 
 ---
 

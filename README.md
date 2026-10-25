@@ -5,7 +5,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Junior+Flutter+Developer;Aspiring+Software+Engineer;Problem+Solver+%26+Critical+Thinker;Building+Apps+with+Flutter+%26+Dart" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Junior+Flutter+Developer;Aspiring+Software+Engineer;Building+Apps+with+Flutter+%26+Dart" alt="Typing animation"/>
 
 <br/><br/>
 

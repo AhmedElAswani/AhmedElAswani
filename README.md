@@ -24,7 +24,6 @@
 
 - 🎓 Programming student at **EVA International School for Applied Technology**.
 - 📱 Focused on **Flutter and Mobile Application Development**.
-- 🧠 Problem solver interested in algorithms, logical thinking, and breaking down complex problems.
 - 💻 Building a strong foundation in Dart, C#, and C++.
 - 🏗️ Exploring software architecture, design patterns, and clean code.
 - 🚀 Learning by building practical projects and improving my skills.
@@ -59,18 +58,6 @@
 <img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio&theme=dark" alt="Git, GitHub, VS Code and Visual Studio"/>
 </div>
 
----
-
-## 🧠 Problem Solving
-
-I enjoy analyzing problems, thinking logically, and developing efficient solutions.
-
-- 🔍 Breaking complex problems into smaller, manageable steps.
-- 🧩 Practicing algorithms and problem-solving fundamentals.
-- 🏗️ Applying object-oriented programming principles.
-- 📈 Improving code readability, efficiency, and maintainability.
-
----
 
 ## 🏗️ Architecture & Design Patterns
 

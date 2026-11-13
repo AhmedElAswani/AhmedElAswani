@@ -1,3 +1,4 @@
+
 import json
 import os
 import urllib.request
@@ -33,25 +34,31 @@ repos = [
     and repo["name"].lower() != USERNAME.lower()
 ]
 
-if not repos:
-    raise SystemExit("No eligible public repositories found.")
+if repos:
+    repo = repos[0]
 
-repo = repos[0]
+    name = repo["name"]
+    description = (
+        repo.get("description") or "A project I'm working on."
+    ).replace("|", "\\|")
+    language = repo.get("language") or "Not specified"
+    link = repo["html_url"]
 
-name = repo["name"]
-description = (repo.get("description") or "A project I'm working on.").replace("|", "\\|")
-language = repo.get("language") or "Not specified"
-link = repo["html_url"]
-
-content = f"""### 🚀 {name}
+    content = f"""### 🚀 {name}
 
 {description}
 
 **Primary Language:** `{language}`
 
-[<img src="https://img.shields.io/badge/VIEW%20PROJECT-19264B?style=for-the-badge&logo=github&logoColor=22D3EE" alt="View Project"/>]({link})
+[View Project]({link})
 
 <sub>Last pushed: {repo["pushed_at"][:10]}</sub>
+"""
+else:
+    content = """### 🚀 No Projects Published Yet
+
+I'm currently working on new projects.
+Stay tuned for upcoming updates! 💻
 """
 
 with open(README, "r", encoding="utf-8") as file:
@@ -68,4 +75,4 @@ updated = before + START + "\n" + content + END + after
 with open(README, "w", encoding="utf-8") as file:
     file.write(updated)
 
-print(f"Updated latest project: {name}")
+print("Latest project section updated successfully!")
